@@ -1,5 +1,5 @@
 # denoise_audio
-denoising a .wav audio file
+denoising a .wav audio file using fft
 
 ## usage
 ### 1. install dependencies listsed in the requirements.txt
