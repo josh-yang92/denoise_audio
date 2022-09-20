@@ -10,3 +10,8 @@ some codes were adopted from: https://realpython.com/python-scipy-fft/
 python3 audio_filter path_to_root_directory name_of_the_file_without_extension
 ```
 **the input audio file must be a .wav file.
+
+#### convert .mp4 file to .wav (ubuntu using ffmpeg)
+```
+ffmpeg -i your.MP4 -ac 2 -f wav your.wav
+```
