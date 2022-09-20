@@ -1,5 +1,7 @@
 # denoise_audio
-denoising a .wav audio file using fft
+denoising a .wav audio file using fft.
+
+some codes were adopted from: https://realpython.com/python-scipy-fft/
 
 ## usage
 ### 1. install dependencies listsed in the requirements.txt
