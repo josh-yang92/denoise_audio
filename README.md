@@ -1,5 +1,7 @@
 # denoise_audio
-denoising a .wav audio file using fft.
+Denoising a .wav audio file using fft.
+
+It can handle both mono and stereo files.
 
 some codes were adopted from: https://realpython.com/python-scipy-fft/
 
@@ -7,7 +9,9 @@ some codes were adopted from: https://realpython.com/python-scipy-fft/
 ### 1. install dependencies listsed in the requirements.txt
 ### 2. run the script
 ```
-python3 audio_filter path_to_root_directory name_of_the_file_without_extension
+python3 audio_filter.py path_to_root_directory name_of_the_file_without_extension --freq single or list of frequencies to filter out
+
+# you can do python3 audio_filter.py -h to find out more about the input arguments
 ```
 **the input audio file must be a .wav file.
 
